@@ -1,5 +1,4 @@
 streamlit
 azure.cognitiveservices.vision.computervision
 msrest
-PIL
 json
