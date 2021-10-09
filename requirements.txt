@@ -1,3 +1,7 @@
 streamlit
 azure.cognitiveservices.vision.computervision
 msrest
+array
+os
+PIL
+json
