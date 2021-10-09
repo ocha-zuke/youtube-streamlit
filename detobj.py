@@ -9,6 +9,10 @@ from PIL import Image
 import sys
 import time
 
+import streamlit as st
+from PIL import ImageDraw
+from PIL import ImageFont
+
 # import json
 
 # with open('secret.json') as f:
@@ -36,10 +40,6 @@ def detect_objects(filepath):
     detect_objects_results = computervision_client.detect_objects_in_stream(local_image)
     objects = detect_objects_results.objects
     return objects
-
-import streamlit as st
-from PIL import ImageDraw
-from PIL import ImageFont
 
 st.title('物体検出アプリ')
 
